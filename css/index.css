@@ -1,0 +1,86 @@
+.cate-titile {
+  margin-top: 5px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cate-titile a {
+  display: block;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 6px;
+}
+
+.cate-titile a img {
+  display: block;
+  width: 100%;
+}
+
+.pdlist {
+  width: 100%;
+}
+
+.pdlist .savemoney {
+  width: 100%;
+}
+
+.pdlist .savemoney > img {
+  width: 100%;
+  display: block;
+}
+
+.pdlist .savemoney ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pdlist .savemoney ul li {
+  width: 48%;
+  padding: 3px;
+  background-color: #ffff;
+  margin-bottom: 5px;
+}
+
+.pdlist .savemoney ul li a {
+  display: block;
+  width: 100%;
+}
+
+.pdlist .savemoney ul li a > img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.pdlist .savemoney ul li a > .pd-text {
+  color: #000;
+  font-size: 12px;
+  overflow: hidden;
+  height: 45px;
+}
+
+.pdlist .savemoney ul li a > .pd-price {
+  color: red;
+  font-size: 20px;
+}
+
+.pdlist .savemoney ul li > .find {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  font-size: 15px;
+}
+/*# sourceMappingURL=index.css.map */

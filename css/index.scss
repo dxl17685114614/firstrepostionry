@@ -1,0 +1,68 @@
+.cate-titile{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+     a{
+         display: block;
+         flex: 1;
+         padding: 6px;
+          img{
+              display: block;
+              width: 100%;
+          }
+     }
+}
+.pdlist{
+    width: 100%;
+
+     .savemoney{
+         width: 100%;
+         >img{
+             width: 100%;
+             display: block;
+
+         }
+         ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            margin-top: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            // 先两边 剩下评分空间
+            justify-content: space-between;
+              li{
+                 width: 48%;
+                  padding: 3px ;
+                  background-color: #ffff;
+                  margin-bottom: 5px;
+                  a{
+                      display: block;
+                      width: 100%;
+                      >img{
+                          width: 80%;
+                          display: block;
+                          margin: 0 auto;
+                      }
+                      >.pd-text{
+                        color: #000;
+                        font-size: 12px;
+                        overflow: hidden;
+                        height: 45px;
+                      }
+                      >.pd-price{
+                        color: red;
+                        font-size: 20px;
+                      }
+                          }
+                   >.find{
+                    display: block;
+                    margin: 0 auto;
+                    width: 60%;
+                    font-size: 15px;
+                  }
+              }
+         }
+     }
+}
+

@@ -1,0 +1,117 @@
+.pyg_view {
+    background-color: #fff;
+  }
+
+  // 轮播图
+
+  // 商品名称
+  .goods_name{
+    padding: 5px;
+    font-size: 14px;
+    color: #666;
+  }
+
+  // 价格
+.goods_price{
+  font-size: 20px;
+  padding: 5px;
+  color: red;
+}
+  // 运费
+  .goods_post_charge{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li{
+      display: flex;
+      border-bottom: 1px solid #ccc;
+      padding: 5px;
+      font-size: 13px;
+      span:nth-child(1){
+        flex: 1;
+        color: #666;
+      }
+      span:nth-child(2){
+        flex: 3;
+      }
+    }
+  }
+
+  // tab 选项卡
+  .pyg_tab{
+    .pyg_tab_content{
+      #item2{
+        ul{
+       
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          padding: 5px;
+          li{
+            background-color: rgb(239, 239, 244);
+            .item_title{
+              font-size: 16px;
+              border-bottom: 1px solid #666;
+              padding: 5px;
+            }
+            .item_content{
+              padding: 5px;
+
+              display: flex;
+              font-size: 13px;
+              span:nth-child(1){
+                flex: 1;  
+              }
+              span:nth-child(2){
+                flex: 4;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  .pyg_ft_tool{
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    a{
+      flex: 1;
+      border-left: 1px solid #ccc;
+    }
+    a:first-child{
+      border-left:none;
+    }
+    // 前几个
+    a:nth-child(-n+2){
+      text-align: center;
+      padding: 3px;
+      color: #666;
+      .fa{
+        font-size: 18px;
+      }
+      div{
+        font-size: 13px;
+      }
+    }
+    // 后几个
+    a:nth-last-child(-n+2){
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      color: #fff;
+      background-color: rgb(240, 173, 78);
+    }
+    a:last-child{
+      background-color: red;
+    }
+
+  }

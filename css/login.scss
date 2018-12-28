@@ -1,0 +1,36 @@
+.loginbox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    form{
+        .yz{
+            position: relative;
+            >#code_btn{
+                position: absolute;
+                z-index: 555;
+                width: auto;
+                right: 0px;
+                margin: 0;
+            }
+        }
+    }
+     span:nth-child(n+1){
+        width: 86%;
+        margin-top: 10px;
+     }
+     .btsbox{
+         display: flex;
+         width: 86%;
+         margin-top:30px;
+         button{
+             flex: 1;
+             margin: 0px 5px;
+         }
+        a{
+            flex: 1;
+            margin: 0px 5px;  
+        }
+     }
+
+}
